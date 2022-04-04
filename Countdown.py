@@ -6,6 +6,6 @@ def countdown(yr,mo,dy):
     daysRemaining = targetDate - currDate
     print("The date today is ", currDate.month, currDate.day, currDate.year)
     print("The target date is ", targetDate.month, targetDate.day, targetDate.year)
-    print("Days left:" + str(daysRemaining))
+    print("Days left:" + str(daysRemaining.days))
 
 countdown(2022,7,30)
